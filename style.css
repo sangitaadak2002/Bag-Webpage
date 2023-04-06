@@ -3,23 +3,28 @@
 	padding: 0;
 	margin: 0;
 }
+
 html {
 	font-size: 18px;
 }
+
 .logo {
 	cursor: pointer;
 }
+
 .wrapper {
 	width: 100%;
 	max-width: 1260px;
 	margin: 0 auto;
 }
+
 @media(min-width:1400px) {
 	.navbar {
 		margin-left: -4rem;
 		margin-right: -2rem;
-   }
+	}
 }
+
 .header__main {
 	width: 100%;
 	border-top: 1px solid black;
@@ -27,66 +32,82 @@ html {
 	margin-top: 2rem;
 	margin-bottom: 2rem;
 }
+
 nav li {
 	padding: 0 1rem;
 }
+
 .navbar form {
 	border: 2px solid #dcdcdc;
 }
+
 .form-control:focus {
 	border-color: inherit !important;
 	-webkit-box-shadow: none !important;
 	box-shadow: none !important;
 }
+
 nav input:focus {
 	background-color: rgb(224, 146, 29) !important;
 }
+
 .navbar input {
 	border: none !important;
-	border-radius: 0px!important;
+	border-radius: 0px !important;
 }
+
 .navbar button {
 	border: 0px;
 	background-color: white;
 	padding-right: 0.5rem;
 	padding-left: 0.5rem;
 }
+
 nav li:hover {
 	background: rgb(197, 120, 1);
 	border-radius: 10px;
 }
+
 @media (max-width:768px) {
 	.navbar li {
 		font-size: 17px;
 		padding-left: 1rem;
-   }
+	}
+
 	.navbar input {
 		font-size: 13px !important;
-   }
+	}
+
 	.navbar form {
 		margin-left: 1rem;
-   }
+	}
 }
+
 @media (max-width:696px) {
 	.navbar li {
 		font-size: 10px;
-   }
+	}
+
 	.navbar input {
 		font-size: 10px !important;
-   }
+	}
 }
+
 .container__row {
 	margin-left: 0.5rem !important;
 }
+
 .container__background {
 	padding-left: 0px !important;
 	padding-right: 0px !important;
 	background-color: rgb(242, 242, 242);
 }
+
 .container__left {
 	margin: auto !important;
 	padding-left: 2rem !important;
 }
+
 .container__right {
 	text-align: center;
 	padding-top: 1rem;
@@ -94,90 +115,110 @@ nav li:hover {
 	flex-direction: column;
 	justify-content: center;
 }
+
 @media(min-width:1200px) {
 	.image {
 		width: 56%;
-   }
+	}
 }
+
 @media(max-width:414px) {
 	.image {
 		width: 70%;
-   }
+	}
 }
+
 @media only screen and (min-width:413px)and (max-width:768px) {
 	.image {
 		width: 90%;
-   }
+	}
 }
+
 @media only screen and (min-width:768px)and (max-width:991.5px) {
 	.image {
 		width: 60%;
-   }
+	}
 }
+
 @media only screen and (min-width:992px) and (max-width:1199.5px) {
 	.image {
 		width: 52%;
-   }
+	}
 }
+
 #right__text1 {
 	text-align: right;
 	padding-right: 1rem;
 }
+
 #right__text2 {
 	text-align: left;
 	padding-left: 1rem;
 }
+
 .text1 {
 	font-size: 18px;
 	color: rgb(197, 120, 1);
 }
+
 .text2 {
 	font-size: 5rem;
 	font-weight: 100;
 	margin-top: -20px;
 }
+
 @media(max-width:415px) {
 	.text1 {
 		font-size: 8px !important;
-   }
+	}
+
 	.text2 {
 		font-size: 1.5rem !important;
-   }
+	}
 }
+
 @media (max-width:444px) {
 	.text1 {
 		font-size: 12px;
-   }
+	}
+
 	.text2 {
 		font-size: 2.4rem;
-   }
+	}
 }
+
 @media(max-width:1399.5px) {
 	.text1 {
 		font-size: 14px;
-   }
+	}
+
 	.text2 {
 		font-size: 4rem;
-   }
+	}
 }
+
 @media(max-width:991.5px) {
 	.text2 {
 		font-size: 2.3rem;
-   }
+	}
 }
+
 @media(max-width:375px) {
 	#right__text1 {
 		font-size: 13px;
-   }
+	}
+
 	#right__text2 {
 		font-size: 13px;
-   }
+	}
 }
+
 @media (max-width:767.5px) {
 	.container_padding {
 		padding-left: 0.5rem !important;
 		padding-right: 2.5rem !important;
-   }
+	}
+
 	.container__right {
 		margin-top: 1rem;
 		display: flex !important;
@@ -185,38 +226,45 @@ nav li:hover {
 		justify-content: center;
 		width: 100%;
 		justify-content: space-around;
-   }
+	}
+
 	.container__right-col {
 		padding-left: 0px !important;
 		padding-right: 0px !important;
-   }
+	}
 }
+
 .container__divider {
 	flex-grow: 1;
 	height: 0.1px;
 	background-color: #9f9f9f;
 	width: 80%;
 }
+
 .container__text {
 	border-bottom: 3px solid rgb(139, 79, 8);
 	display: inline;
 }
+
 .container__element {
 	position: relative;
 	margin: 0 auto;
 	transition: all 0.5s ease-out;
 	width: 11.5rem;
 }
+
 .container__element:hover {
 	box-shadow: 0 4px 10px rgb(139, 79, 8);
 	transform: translateY(-10px);
 }
+
 @media(min-width:1199px) {
-	.container__card{
+	.container__card {
 		padding-left: 6rem;
 		padding-right: 6rem;
-   }
+	}
 }
+
 .container__element .content {
 	position: absolute;
 	bottom: 0;
@@ -228,45 +276,55 @@ nav li:hover {
 	display: flex;
 	justify-content: space-between;
 }
-figcaption p{
-	margin-bottom:0px!important;
+
+figcaption p {
+	margin-bottom: 0px !important;
 }
+
 .section__paragraph {
 	padding: 1rem;
 	font-size: 15px;
 	line-height: 2rem;
-	margin-bottom:1rem;
+	margin-bottom: 1rem;
 }
+
 .page-footer {
 	background-color: rgb(136, 73, 2);
 	color: white;
 }
-.page-footer h4{
+
+.page-footer h4 {
 	font-size: 16px;
 	margin-top: 0;
 	margin-bottom: 1rem;
 }
+
 .page-footer ul {
 	list-style-type: none;
 	padding-left: 0px;
 }
+
 .page-footer li {
 	text-align: left;
 }
+
 .page-footer a {
 	color: white;
 	text-decoration: none;
 	font-size: 14px;
 }
+
 .alignment {
 	text-align: left;
 }
+
 .page-footer input {
 	margin-bottom: 1rem;
 	width: 70% !important;
 	border-radius: 0px !important;
 	font-size: 13px !important;
 }
+
 .page-footer button {
 	background-color: rgb(197, 120, 1) !important;
 	border-radius: 0px !important;
@@ -274,6 +332,7 @@ figcaption p{
 	border: 0px !important;
 	font-size: 0.7rem !important;
 }
+
 .alignment div {
 	display: flex;
 	align-items: center;
@@ -281,45 +340,53 @@ figcaption p{
 	font-size: 0.8rem;
 	padding-bottom: 1rem;
 }
+
 .contact_info img {
 	padding-right: 1rem;
 }
+
 @media(max-width:575.5px) {
-	.contact_info img{
+	.contact_info img {
 		padding-right: 0px;
-   }
+	}
+
 	.contact_info {
 		margin-top: 1rem !important;
-   }
+	}
+
 	.alignment {
 		display: flex;
 		justify-content: center;
 		align-items: center;
 		flex-direction: column;
-   }
+	}
+
 	.page-footer input {
 		width: 100% !important;
-   }
+	}
+
 	.page-footer li {
 		text-align: center;
-   }
+	}
+
 	.page-footer .form-control {
 		text-align: center;
-   }
-	.contact_info div{
+	}
+
+	.contact_info div {
 		display: flex;
 		flex-direction: column;
 		text-align: center;
-   }
+	}
 }
 
 .alignment a:hover {
-	color: rgb(197, 139, 52);	
+	color: rgb(197, 139, 52);
 }
 
 .footer__copyright {
 	background-color: black;
 	color: white;
-	font-size:12px;
-	padding:0.3rem;
+	font-size: 12px;
+	padding: 0.3rem;
 }
