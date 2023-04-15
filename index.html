@@ -21,13 +21,16 @@
     </head>
     <body class="d-flex flex-column min-vh-100">
         <header class="header__view">
-            <section class="text-center logo">
+            <section class="text-center logo logo__lgscreen">
                 <img src="assets/logo.png" alt="Logo" />
             </section>
             <section class="header__main">
                 <div class="wrapper">
                     <nav class="navbar navbar-expand-sm">
                         <div class="container-fluid">
+                            <section class="text-center logo logo__mobscreen">
+                                <img src="assets/logo.png" alt="Logo" />
+                            </section>
                             <button
                                 class="navbar-toggler"
                                 type="button"
@@ -43,7 +46,7 @@
                                 class="collapse navbar-collapse"
                                 id="navbarSupportedContent"
                                 >
-                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <ul class="navbar-nav me-auto mb-lg-0">
                                     <li>
                                         <a
                                             class="nav-link"
@@ -93,14 +96,14 @@
                 <div class="container wrapper container_padding">
                     <div class="row gx-5 container__row">
                         <section
-                            class="col-12 col-md-8 col-lg-8 container__background"
+                            class="col-12 col-md-8 col-lg-8 px-0 container__background"
                             >
                             <div class="row">
                                 <section
                                     class="col-5 col-md-4 col-lg-5 container__left"
                                     >
-                                    <p class="text1">NEW COLLECTION</p>
-                                    <p class="text2">Delicacy</p>
+                                    <span class="text1">NEW COLLECTION</span>
+                                    <span class="text2">Delicacy</span>
                                 </section>
                                 <section
                                     class="col-7 col-md-8 col-lg-7 container__left-img"
@@ -123,9 +126,9 @@
                                         alt="bag_1"
                                         class="image"
                                         />
-                                    <p id="right__text1">
-                                        <strong>Lorem Ipsum</strong>
-                                    </p>
+                                    <span id="right__text1">
+                                    <strong>Lorem Ipsum</strong>
+                                    </span>
                                 </section>
                                 <section>
                                     <img
@@ -133,9 +136,9 @@
                                         alt="bag_2"
                                         class="image"
                                         />
-                                    <p id="right__text2">
-                                        <strong>Lorem Ipsum</strong>
-                                    </p>
+                                    <span id="right__text2">
+                                    <strong>Lorem Ipsum</strong>
+                                    </span>
                                 </section>
                             </div>
                         </section>
@@ -157,8 +160,8 @@
                                 alt="bag1"
                                 />
                             <figcaption class="content">
-                                <p>Lorem Bag</p>
-                                <p>$20</p>
+                                <span>Lorem Bag</span>
+                                <span>$20</span>
                             </figcaption>
                         </figure>
                     </div>
@@ -170,8 +173,8 @@
                                 alt="bag2"
                                 />
                             <figcaption class="content">
-                                <p>Lorem Bag</p>
-                                <p>$20</p>
+                                <span>Lorem Bag</span>
+                                <span>$20</span>
                             </figcaption>
                         </figure>
                     </div>
@@ -183,8 +186,8 @@
                                 alt="bag3"
                                 />
                             <figcaption class="content">
-                                <p>Lorem Bag</p>
-                                <p>$20</p>
+                                <span>Lorem Bag</span>
+                                <span>$20</span>
                             </figcaption>
                         </figure>
                     </div>
@@ -196,8 +199,8 @@
                                 alt="bag4"
                                 />
                             <figcaption class="content">
-                                <p>Lorem Bag</p>
-                                <p>$20</p>
+                                <span>Lorem Bag</span>
+                                <span>$20</span>
                             </figcaption>
                         </figure>
                     </div>
@@ -209,8 +212,8 @@
                                 alt="bag1"
                                 />
                             <figcaption class="content">
-                                <p>Lorem Bag</p>
-                                <p>$20</p>
+                                <span>Lorem Bag</span>
+                                <span>$20</span>
                             </figcaption>
                         </figure>
                     </div>
@@ -222,8 +225,8 @@
                                 alt="bag4"
                                 />
                             <figcaption class="content">
-                                <p>Lorem Bag</p>
-                                <p>$20</p>
+                                <span>Lorem Bag</span>
+                                <span>$20</span>
                             </figcaption>
                         </figure>
                     </div>
@@ -277,7 +280,7 @@
                                     aria-describedby="emailHelp"
                                     />
                             </form>
-                            <button type="button" class="btn btn-primary">
+                            <button type="button" class="btn btn-primary mb-3">
                             Subscribe
                             </button>
                         </section>
@@ -307,7 +310,7 @@
             </section>
         </main>
         <footer class="text-center footer__copyright mt-auto">
-            Copyright &copy Bags 2019
+            <span>Copyright &copy Bags 2019</span>
         </footer>
     </body>
 </html>
