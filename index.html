@@ -1,316 +1,258 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Project on Bags Website</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="style.css" />
-        <link
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
-            rel="stylesheet"
-            integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
-            crossorigin="anonymous"
-            />
-        <script
-            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-            crossorigin="anonymous"
-            ></script>
-    </head>
-    <body class="d-flex flex-column min-vh-100">
-        <header class="header__view">
-            <section class="text-center logo logo__lgscreen">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project on Bags Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"></script>
+  </head>
+  <body class="d-flex flex-column min-vh-100">
+    <header>
+      <section class="text-center logo logo__lgscreen mt-3">
+        <img src="assets/logo.png" alt="Logo" />
+      </section>
+      <section class="header__main">
+        <div class="wrapper">
+          <nav class="navbar navbar-expand-sm">
+            <div class="container-fluid">
+              <section class="text-center logo logo__mobscreen">
                 <img src="assets/logo.png" alt="Logo" />
-            </section>
-            <section class="header__main">
-                <div class="wrapper">
-                    <nav class="navbar navbar-expand-sm">
-                        <div class="container-fluid">
-                            <section class="text-center logo logo__mobscreen">
-                                <img src="assets/logo.png" alt="Logo" />
-                            </section>
-                            <button
-                                class="navbar-toggler"
-                                type="button"
-                                data-bs-toggle="collapse"
-                                data-bs-target="#navbarSupportedContent"
-                                aria-controls="navbarSupportedContent"
-                                aria-expanded="false"
-                                aria-label="Toggle navigation"
-                                >
-                            <span class="navbar-toggler-icon"></span>
-                            </button>
-                            <section
-                                class="collapse navbar-collapse"
-                                id="navbarSupportedContent"
-                                >
-                                <ul class="navbar-nav me-auto mb-lg-0">
-                                    <li>
-                                        <a
-                                            class="nav-link"
-                                            aria-current="page"
-                                            href="#"
-                                            ><strong>Home</strong></a
-                                            >
-                                    </li>
-                                    <li>
-                                        <a class="nav-link" href="#About_us"
-                                            ><strong>About us</strong></a
-                                            >
-                                    </li>
-                                    <li>
-                                        <a class="nav-link" href="#Bags"
-                                            ><strong>Bags</strong></a
-                                            >
-                                    </li>
-                                    <li>
-                                        <a class="nav-link" href="#Contacts"
-                                            ><strong>Contacts</strong></a
-                                            >
-                                    </li>
-                                </ul>
-                                <form class="d-flex " role="search">
-                                    <input                                    
-                                        class="form-control mr-sm-2"
-                                        type="search"
-                                        placeholder="Search for bags"
-                                        aria-label="Search"
-                                        />
-                                    <button type="submit" class="search-button">
-                                    <img
-                                        src="assets/search-icon.png"
-                                        alt="search-icon"
-                                        />
-                                    </button>
-                                </form>
-                            </section>
-                        </div>
-                    </nav>
+              </section>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <section
+                class="collapse navbar-collapse"
+                id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-lg-0">
+                  <li>
+                    <a class="nav-link" aria-current="page" href="#">
+                      <strong>Home</strong>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="nav-link" href="#About_us">
+                      <strong>About us</strong>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="nav-link" href="#Bags"><strong>Bags</strong></a>
+                  </li>
+                  <li>
+                    <a class="nav-link" href="#Contacts">
+                      <strong>Contacts</strong>
+                    </a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input
+                    class="form-control mr-sm-2"
+                    type="search"
+                    placeholder="Search for bags"
+                    aria-label="Search" />
+                  <button type="submit" class="search-button">
+                    <img src="assets/search-icon.png" alt="search-icon" />
+                  </button>
+                </form>
+              </section>
+            </div>
+          </nav>
+        </div>
+      </section>
+    </header>
+    <main>
+      <section class="container">
+        <section id="About_us">
+          <div class="container wrapper container_padding mb-3 mt-3">
+            <div class="row gx-5 container__row">
+              <section
+                class="col-12 col-md-8 col-lg-8 px-0 container__background">
+                <div class="row">
+                  <section class="col-5 col-md-4 col-lg-5 container__left">
+                    <span class="text1">NEW COLLECTION</span>
+                    <span class="text2">Delicacy</span>
+                  </section>
+                  <section class="col-7 col-md-8 col-lg-7 container__left-img">
+                    <img
+                      src="assets/left-banner-Copy.png"
+                      alt="bag_banner"
+                      width="100%" />
+                  </section>
                 </div>
-            </section>
-        </header>
-        <main>
-            <section id="About_us">
-                <div class="container wrapper container_padding">
-                    <div class="row gx-5 container__row">
-                        <section
-                            class="col-12 col-md-8 col-lg-8 px-0 container__background"
-                            >
-                            <div class="row">
-                                <section
-                                    class="col-5 col-md-4 col-lg-5 container__left"
-                                    >
-                                    <span class="text1">NEW COLLECTION</span>
-                                    <span class="text2">Delicacy</span>
-                                </section>
-                                <section
-                                    class="col-7 col-md-8 col-lg-7 container__left-img"
-                                    >
-                                    <img
-                                        src="assets/left-banner-Copy.png"
-                                        alt="bag_banner"
-                                        width="100%"
-                                        />
-                                </section>
-                            </div>
-                        </section>
-                        <section
-                            class="col-12 col-md-4 col-lg-4 container__right-col"
-                            >
-                            <div class="container__right container__background">
-                                <section>
-                                    <img
-                                        src="assets/bag_1.png"
-                                        alt="bag_1"
-                                        class="image"
-                                        />
-                                    <span id="right__text1">
-                                    <strong>Lorem Ipsum</strong>
-                                    </span>
-                                </section>
-                                <section>
-                                    <img
-                                        src="assets/bag_2.png"
-                                        alt="bag_2"
-                                        class="image"
-                                        />
-                                    <span id="right__text2">
-                                    <strong>Lorem Ipsum</strong>
-                                    </span>
-                                </section>
-                            </div>
-                        </section>
-                    </div>
+              </section>
+              <section class="col-12 col-md-4 col-lg-4 container__right-col">
+                <div class="container__right container__background">
+                  <section>
+                    <img src="assets/bag_1.png" alt="bag_1" class="image" />
+                    <span id="right__text1">
+                      <strong>Lorem Ipsum</strong>
+                    </span>
+                  </section>
+                  <section>
+                    <img src="assets/bag_2.png" alt="bag_2" class="image" />
+                    <span id="right__text2">
+                      <strong>Lorem Ipsum</strong>
+                    </span>
+                  </section>
                 </div>
+              </section>
+            </div>
+          </div>
+        </section>
+        <br />
+        <section class="container wrapper" id="Bags">
+          <div>
+            <div class="container__text">Sales Product</div>
+            <div class="container__divider"></div>
+          </div>
+          <div class="row justify-content-center container__card mt-3 mb-3">
+            <div class="col-12 col-lg-3 col-md-4 col-sm-6 p-3">
+              <figure class="container__element">
+                <img src="assets/bag1.jpg" class="card-img-top" alt="bag1" />
+                <figcaption class="content">
+                  <span><strong>Lorem Bag</strong></span>
+                  <span><strong>$20</strong></span>
+                </figcaption>
+              </figure>
+            </div>
+            <div class="col-12 col-lg-3 col-md-4 col-sm-6 p-3">
+              <figure class="container__element">
+                <img src="assets/bag2.jpg" class="card-img-top" alt="bag2" />
+                <figcaption class="content">
+                  <span><strong>Lorem Bag</strong></span>
+                  <span><strong>$40</strong></span>
+                </figcaption>
+              </figure>
+            </div>
+            <div class="col-12 col-lg-3 col-md-4 col-sm-6 p-3">
+              <figure class="container__element">
+                <img src="assets/bag3.jpg" class="card-img-top" alt="bag3" />
+                <figcaption class="content">
+                  <span><strong>Lorem Bag</strong></span>
+                  <span><strong>$30</strong></span>
+                </figcaption>
+              </figure>
+            </div>
+            <div class="col-12 col-lg-3 col-md-4 col-sm-6 p-3">
+              <figure class="container__element">
+                <img src="assets/bag4.jpg" class="card-img-top" alt="bag4" />
+                <figcaption class="content">
+                  <span><strong>Lorem Bag</strong></span>
+                  <span><strong>$30</strong></span>
+                </figcaption>
+              </figure>
+            </div>
+            <div class="col-12 col-lg-3 col-md-4 col-sm-6 p-3">
+              <figure class="container__element">
+                <img src="assets/bag1.jpg" class="card-img-top" alt="bag1" />
+                <figcaption class="content">
+                  <span><strong>Lorem Bag</strong></span>
+                  <span><strong>$20</strong></span>
+                </figcaption>
+              </figure>
+            </div>
+            <div class="col-12 col-lg-3 col-md-4 col-sm-6 p-3">
+              <figure class="container__element">
+                <img src="assets/bag4.jpg" class="card-img-top" alt="bag4" />
+                <figcaption class="content">
+                  <span><strong>Lorem Bag</strong></span>
+                  <span><strong>$30</strong></span>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+        </section>
+        <section>
+          <div class="wrapper col text-center">
+            <h1 class="mt-4">Lorem ipsum dolor</h1>
+            <article class="section__article">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+              tempor nibh a lacus luctus, ac aliquam arcu vulputate. Donec id
+              semper nunc. Nullam in condimentum quam. Lorem ipsum dolor sit
+              amet, consectetur adipiscing elit. Sed tempor nibh a lacus luctus,
+              ac aliquam arcu vulputate. Donec id semper nunc. Nullam in
+              condimentum quam. Lorem ipsum dolor sit amet, consectetur
+              adipiscing elit. Sed tempor nibh a lacus luctus, ac aliquam arcu
+              vulputate. Donec id semper nunc. Nullam in condimentum quam.
+            </article>
+          </div>
+        </section>
+      </section>
+      <section class="page-footer font-small" id="Contacts">
+        <div class="container text-center text-md-left p-4 mr-2 ml-2">
+          <div class="row justify-content-center">
+            <section class="col-lg-4 col-sm-6 alignment">
+              <h4>Quick Links</h4>
+              <ul>
+                <li>
+                  <a href="#home">Home</a>
+                </li>
+                <li>
+                  <a href="#About us">About us</a>
+                </li>
+                <li>
+                  <a href="#Bags">Bags</a>
+                </li>
+                <li>
+                  <a href="#Contact">Contact</a>
+                </li>
+              </ul>
             </section>
-            <br />
-            <section class="container wrapper " id="Bags">
-                <div>
-                    <div class="container__text">Sales Product</div>
-                    <div class="container__divider"></div>
-                </div>
-                <div class="row justify-content-center container__card mt-4 mb-3">
-                    <div class="col-12 col-lg-3 col-md-4 col-sm-6 p-3">
-                        <figure class="container__element">
-                            <img
-                                src="assets/bag1.jpg"
-                                class="card-img-top"
-                                alt="bag1"
-                                />
-                            <figcaption class="content">
-                                <span>Lorem Bag</span>
-                                <span>$20</span>
-                            </figcaption>
-                        </figure>
-                    </div>
-                    <div class="col-12 col-lg-3 col-md-4 col-sm-6 p-3">
-                        <figure class="container__element">
-                            <img
-                                src="assets/bag2.jpg"
-                                class="card-img-top"
-                                alt="bag2"
-                                />
-                            <figcaption class="content">
-                                <span>Lorem Bag</span>
-                                <span>$20</span>
-                            </figcaption>
-                        </figure>
-                    </div>
-                    <div class="col-12 col-lg-3 col-md-4 col-sm-6 p-3">
-                        <figure class="container__element">
-                            <img
-                                src="assets/bag3.jpg"
-                                class="card-img-top"
-                                alt="bag3"
-                                />
-                            <figcaption class="content">
-                                <span>Lorem Bag</span>
-                                <span>$20</span>
-                            </figcaption>
-                        </figure>
-                    </div>
-                    <div class="col-12 col-lg-3 col-md-4 col-sm-6 p-3">
-                        <figure class="container__element">
-                            <img
-                                src="assets/bag4.jpg"
-                                class="card-img-top"
-                                alt="bag4"
-                                />
-                            <figcaption class="content">
-                                <span>Lorem Bag</span>
-                                <span>$20</span>
-                            </figcaption>
-                        </figure>
-                    </div>
-                    <div class="col-12 col-lg-3 col-md-4 col-sm-6 p-3">
-                        <figure class="container__element">
-                            <img
-                                src="assets/bag1.jpg"
-                                class="card-img-top"
-                                alt="bag1"
-                                />
-                            <figcaption class="content">
-                                <span>Lorem Bag</span>
-                                <span>$20</span>
-                            </figcaption>
-                        </figure>
-                    </div>
-                    <div class="col-12 col-lg-3 col-md-4 col-sm-6 p-3">
-                        <figure class="container__element">
-                            <img
-                                src="assets/bag4.jpg"
-                                class="card-img-top"
-                                alt="bag4"
-                                />
-                            <figcaption class="content">
-                                <span>Lorem Bag</span>
-                                <span>$20</span>
-                            </figcaption>
-                        </figure>
-                    </div>
-                </div>
+            <section class="col-lg-4 col-sm-6 alignment">
+              <h4>NewsLetter</h4>
+              <form action="" method="post">
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="Enter Email Address"
+                  id="login-email"
+                  aria-describedby="emailHelp" />
+              </form>
+              <button type="button" class="btn btn-primary mb-3">
+                Subscribe
+              </button>
             </section>
-            <section>
-                <div class="wrapper col text-center">
-                    <h1>Lorem ipsum dolor</h1>
-                    <article class="section__paragraph">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Sed tempor nibh a lacus luctus, ac aliquam arcu
-                        vulputate. Donec id semper nunc. Nullam in condimentum
-                        quam. Lorem ipsum dolor sit amet, consectetur adipiscing
-                        elit. Sed tempor nibh a lacus luctus, ac aliquam arcu
-                        vulputate. Donec id semper nunc. Nullam in condimentum
-                        quam. Lorem ipsum dolor sit amet, consectetur adipiscing
-                        elit. Sed tempor nibh a lacus luctus, ac aliquam arcu
-                        vulputate. Donec id semper nunc. Nullam in condimentum
-                        quam.
-                    </article>
-                </div>
+            <section class="col-lg-4 col-sm-6 alignment contact_info">
+              <h4>Contact Info</h4>
+              <div>
+                <img src="assets/location-icon.png" alt="location-icon" />
+                <a href="#">
+                  1234 Some St San Francisco, CA 94102, US 1.800.123.4567
+                </a>
+              </div>
+              <div>
+                <img src="assets/phone-icon.png" alt="phone-icon" />
+                <a href="#">(123) 456 78 90</a>
+              </div>
+              <div>
+                <img src="assets/envelop-icon.png" alt="envelop" />
+                <a href="#">info@bags.com</a>
+              </div>
             </section>
-            <section class="page-footer font-small" id="Contacts">
-                <div class="container text-center text-md-left p-4">
-                    <div class="row justify-content-center">
-                        <section class="col-lg-4 col-sm-6 alignment">
-                            <h4>Quick Links</h4>
-                            <ul>
-                                <li>
-                                    <a href="#home">Home</a>
-                                </li>
-                                <li>
-                                    <a href="#About us">About us</a>
-                                </li>
-                                <li>
-                                    <a href="#Bags">Bags</a>
-                                </li>
-                                <li>
-                                    <a href="#Contact">Contact</a>
-                                </li>
-                            </ul>
-                        </section>
-                        <section class="col-lg-4 col-sm-6 alignment">
-                            <h4>NewsLetter</h4>
-                            <form action="" method="post">
-                                <input
-                                    type="email"
-                                    class="form-control"
-                                    placeholder="Enter Email Address"
-                                    id="login-email"
-                                    aria-describedby="emailHelp"
-                                    />
-                            </form>
-                            <button type="button" class="btn btn-primary mb-3">
-                            Subscribe
-                            </button>
-                        </section>
-                        <section class="col-lg-4 col-sm-6 alignment contact_info">
-                            <h4>Contact Info</h4>
-                            <div>
-                                <img
-                                    src="assets/location-icon.png"
-                                    alt="location-icon"
-                                    />
-                                <a href="#"
-                                    >1234 Some St San Francisco, CA 94102, US
-                                1.800.123.4567</a
-                                    >
-                            </div>
-                            <div>
-                                <img src="assets/phone-icon.png" alt="phone-icon" />
-                                <a href="#">(123) 456 78 90</a>
-                            </div>
-                            <div>
-                                <img src="assets/envelop-icon.png" alt="envelop" />
-                                <a href="#">info@bags.com</a>
-                            </div>
-                        </section>
-                    </div>
-                </div>
-            </section>
-        </main>
-        <footer class="text-center footer__copyright mt-auto">
-            <span>Copyright &copy Bags 2019</span>
-        </footer>
-    </body>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="text-center footer__copyright mt-auto">
+      <span>Copyright &copy Bags 2019</span>
+    </footer>
+  </body>
 </html>
