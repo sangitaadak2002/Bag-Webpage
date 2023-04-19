@@ -26,6 +26,10 @@ html {
   margin: 0 auto;
 }
 
+.navbar-collapse{
+  text-align: center;
+}
+
 nav li {
   padding: 0 1rem;
   white-space: nowrap;
@@ -315,8 +319,12 @@ nav li:hover {
 
 @media (max-width: 767.5px) {
   .navbar li {
-    font-size: 13px;
+    font-size: 17px;
     padding: 0 0.2rem;
+  }
+
+  .navbar form {
+    margin-left: 0px;
   }
 
   #about_us .container {
@@ -329,7 +337,7 @@ nav li:hover {
     display: flex;
     flex-direction: row;
     width: 100%;
-    justify-content: space-around;
+    justify-content: space-between;
   }
 
   .container_padding .col-md-4 {
@@ -354,7 +362,7 @@ nav li:hover {
   .logo__lgscreen {
     display: none;
   }
-
+  
   .header__main {
     margin-top: 2rem;
   }
@@ -422,6 +430,11 @@ nav li:hover {
 }
 
 @media (max-width: 375px) {
+
+  .navbar li {
+      font-size: 12px;
+    }
+  
   #right__text1 {
     font-size: 13px;
   }
