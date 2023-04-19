@@ -63,7 +63,7 @@ nav li:hover {
   border-radius: 10px;
 }
 
-#About_us .row {
+#about_us .row {
   margin-left: 0.5rem;
 }
 
@@ -79,6 +79,10 @@ nav li:hover {
   display: flex;
   flex-direction: column;
   justify-content: end;
+}
+
+.container__left-img {
+  width: 100%;
 }
 
 .text1 {
@@ -315,7 +319,7 @@ nav li:hover {
     padding: 0 0.2rem;
   }
 
-  #About_us .container {
+  #about_us .container {
     padding-left: 0.5rem;
     padding-right: 2.5rem;
   }
