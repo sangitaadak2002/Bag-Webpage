@@ -165,29 +165,29 @@ nav li:hover {
   margin-bottom: 2rem;
 }
 
-.page-footer {
+.page__footer {
   background-color: rgb(136, 73, 2);
   color: white;
   margin-inline: 0;
   max-width: 100% !important;
 }
 
-.page-footer h4 {
+.page__footer h4 {
   font-size: 16px;
   margin-top: 0;
   margin-bottom: 1rem;
 }
 
-.page-footer ul {
+.page__footer ul {
   list-style-type: none;
   padding-left: 0px;
 }
 
-.page-footer li {
+.page__footer li {
   text-align: left;
 }
 
-.page-footer a {
+.page__footer a {
   color: white;
   text-decoration: none;
   font-size: 14px;
@@ -197,14 +197,14 @@ nav li:hover {
   text-align: left;
 }
 
-.page-footer input {
+.page__footer input {
   margin-bottom: 1rem;
   width: 70%;
   border-radius: 0px;
   font-size: 14px;
 }
 
-.page-footer button {
+.page__footer button {
   background-color: rgb(197, 120, 1);
   border-radius: 0px;
   color: white;
@@ -255,6 +255,7 @@ nav li:hover {
     font-size: 4rem;
   }
 }
+
 @media only screen and (min-width: 1199px) and (max-width: 1399.5px) {
   .image {
     width: 46%;
@@ -307,6 +308,7 @@ nav li:hover {
     font-size: 13px;
   }
 }
+
 @media (max-width: 767.5px) {
   .navbar li {
     font-size: 13px;
@@ -348,9 +350,11 @@ nav li:hover {
   .logo__lgscreen {
     display: none;
   }
+
   .header__main {
     margin-top: 2rem;
   }
+
   .section__article {
     line-height: 1.8rem;
     font-size: 14px;
@@ -368,15 +372,15 @@ nav li:hover {
     flex-direction: column;
   }
 
-  .page-footer input {
+  .page__footer input {
     width: 100%;
   }
 
-  .page-footer li {
+  .page__footer li {
     text-align: center;
   }
 
-  .page-footer .form-control {
+  .page__footer .form-control {
     text-align: center;
   }
 
