@@ -167,7 +167,6 @@ nav li:hover {
 }
 
 .section__article {
-  padding: 1rem;
   font-size: 15px;
   line-height: 2rem;
   margin-bottom: 2rem;
@@ -220,6 +219,10 @@ nav li:hover {
   font-size: 0.7rem;
 }
 
+.btn-primary:hover {
+  background-color: rgb(197, 139, 52);
+}
+
 .alignment div {
   display: flex;
   align-items: center;
@@ -230,6 +233,11 @@ nav li:hover {
 
 .contact_info img {
   padding-right: 1rem;
+}
+
+.btn-primary:hover {
+  background-color: rgb(237, 152, 23) !important;
+  color: black !important;
 }
 
 .alignment a:hover {
@@ -327,7 +335,7 @@ nav li:hover {
     margin-left: 0px;
   }
 
-  #about_us .container {
+  .container__padding {
     padding-left: 0.5rem;
     padding-right: 2.5rem;
   }
@@ -340,7 +348,7 @@ nav li:hover {
     justify-content: space-between;
   }
 
-  .container_padding .col-md-4 {
+  .container__padding .col-md-4 {
     padding-left: 0px;
     padding-right: 0px;
   }
@@ -415,11 +423,11 @@ nav li:hover {
 
 @media (max-width: 415px) {
   .text1 {
-    font-size: 8px !important;
+    font-size: 8px;
   }
 
   .text2 {
-    font-size: 1.5rem !important;
+    font-size: 1.5rem;
   }
 }
 
