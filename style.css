@@ -240,7 +240,7 @@ nav li:hover {
   padding-bottom: 1rem;
 }
 
-.contact_info img {
+.contact__info img {
   padding-right: 1rem;
 }
 
@@ -388,7 +388,7 @@ nav li:hover {
     font-size: 14px;
   }
 
-  .contact_info img {
+  .contact__info img {
     padding-right: 0px;
     padding-bottom: 5px;
   }
@@ -412,7 +412,7 @@ nav li:hover {
     text-align: center;
   }
 
-  .contact_info div {
+  .contact__info div {
     display: flex;
     flex-direction: column;
     text-align: center;
