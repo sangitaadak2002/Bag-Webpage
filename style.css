@@ -12,7 +12,7 @@ html {
   cursor: pointer;
 }
 
-.header__main {
+.header__navbar {
   width: 100%;
   border-top: 2px solid #b9b9b9;
   border-bottom: 2px solid #b9b9b9;
@@ -75,7 +75,7 @@ nav li:hover {
   margin-left: 0.5rem;
 }
 
-.container__row span {
+.main__container--row span {
   display: block;
   margin-block-start: 1em;
   margin-block-end: 1em;
@@ -129,38 +129,40 @@ nav li:hover {
   white-space: nowrap;
 }
 
-.container__text {
+.divider__text {
   border-bottom: 3px solid rgb(139, 79, 8);
   display: inline;
 }
 
-.container__divider {
+.divider__line {
   flex-grow: 1;
   height: 0.1px;
   background-color: #dadada;
   width: 80%;
 }
 
-.container__element {
+.main__cards--element {
   position: relative;
   margin: 0 auto;
   transition: all 0.5s ease-out;
   width: 11.5rem;
 }
 
-.container__element:hover {
+.main__cards--element:hover {
   box-shadow: 0 4px 10px rgb(139, 79, 8);
   transform: translateY(-10px);
 }
 
 @media (min-width: 1199.5px) {
-  .container__card {
+  .main__cards {
     padding-left: 6rem;
     padding-right: 6rem;
+    margin-bottom: 1rem;
+    margin-top:3rem;
   }
 }
 
-.container__element .content {
+.main__cards--element .cards__content {
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -171,40 +173,40 @@ nav li:hover {
   justify-content: space-between;
 }
 
-.section__paragraph {
+.main__paragraph {
   font-size: 15px;
   line-height: 2rem;
   margin-bottom: 2rem;
 }
 
-.page__footer {
+.main__footer {
   background-color: rgb(136, 73, 2);
   color: white;
   margin-inline: 0;
 }
 
-.page__footer h4 {
+.main__footer h4 {
   font-size: 16px;
   margin-top: 0;
   margin-bottom: 1rem;
 }
 
-.page__footer ul {
+.main__footer ul {
   list-style-type: none;
   padding-left: 0px;
 }
 
-.page__footer li {
+.main__footer li {
   text-align: left;
 }
 
-.page__footer a {
+.main__footer a {
   color: white;
   text-decoration: none;
   font-size: 14px;
 }
 
-.page__footer span {
+.main__footer span {
   color: white;
   font-size: 14px;
 }
@@ -213,13 +215,13 @@ nav li:hover {
   text-align: left;
 }
 
-.page__footer input {
+.main__footer input {
   width: 70%;
   border-radius: 0px;
   font-size: 14px;
 }
 
-.page__footer button {
+.main__footer button {
   margin-top: 1rem;
   background-color: rgb(197, 120, 1);
   border-radius: 0px;
@@ -343,7 +345,7 @@ nav li:hover {
     margin-left: 0px;
   }
 
-  .container__padding {
+  .main__container {
     padding-left: 0.5rem;
     padding-right: 2.5rem;
   }
@@ -356,7 +358,7 @@ nav li:hover {
     justify-content: space-around;
   }
 
-  .container__padding .col-md-4 {
+  .main__container .col-md-4 {
     padding-left: 0px;
     padding-right: 0px;
   }
@@ -383,7 +385,7 @@ nav li:hover {
     margin-top: 2rem;
   }
 
-  .section__paragraph {
+  .main__paragraph {
     line-height: 1.8rem;
     font-size: 14px;
   }
@@ -400,15 +402,15 @@ nav li:hover {
     flex-direction: column;
   }
 
-  .page__footer input {
+  .main__footer input {
     width: 100%;
   }
 
-  .page__footer li {
+  .main__footer li {
     text-align: center;
   }
 
-  .page__footer .form-control {
+  .main__footer .form-control {
     text-align: center;
   }
 
