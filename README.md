@@ -8,8 +8,3 @@ This project showcases a simple yet stylish webpage for a bag, created using HTM
 ## Files
 - `index.html`: Main HTML file for the webpage.
 - `styles.css`: CSS file for styling the webpage.
-
-## How to Use
-1. Clone the repository to your local machine.
-   ```bash
-   git clone
